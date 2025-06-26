@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Logical Reasoning Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+  <h1>🧠 Logical Reasoning Quiz</h1>
+  <form id="quiz-form"></form>
+
+  <button onclick="submitQuiz()">Submit Quiz</button>
+  <div id="score-output"></div>
+
+  <py-script src="quiz.py"></py-script>
+
+  <script>
+    function submitQuiz() {
+      calculate_score();
+    }
+  </script>
+</body>
+</html>
