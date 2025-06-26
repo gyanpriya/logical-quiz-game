@@ -1,5 +1,9 @@
 from js import document
 
+from js import console
+console.log("✅ PyScript is running")
+
+
 # 20 sample easy aptitude questions
 questions = [
     {

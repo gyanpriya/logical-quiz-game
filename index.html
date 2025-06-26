@@ -9,17 +9,13 @@
 </head>
 <body>
   <h1>🧠 Logical Reasoning Quiz</h1>
+
   <form id="quiz-form"></form>
 
-  <button onclick="submitQuiz()">Submit Quiz</button>
+  <!-- ✅ Use py-click to trigger Python function -->
+  <button py-click="calculate_score()">Submit Quiz</button>
   <div id="score-output"></div>
 
   <py-script src="quiz.py"></py-script>
-
-  <script>
-    function submitQuiz() {
-      calculate_score();
-    }
-  </script>
 </body>
 </html>
